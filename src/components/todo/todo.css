@@ -1,0 +1,20 @@
+.todo {
+  font-size: 24px;
+  border: 1px solid black;
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+}
+
+.todo__title {
+  padding: 0 12px;
+}
+
+.todo__delete {
+  font-size: 24px;
+  color: red;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
